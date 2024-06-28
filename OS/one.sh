@@ -1,0 +1,2 @@
+MSG="HEy DIT STUDENTS"
+echo $MSG
