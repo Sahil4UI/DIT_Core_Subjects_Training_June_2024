@@ -1,0 +1,94 @@
+CN->Computer Network
+Problem
+John->small business->10 employees
+He has all standalone computers in his office and in his office, employees uses pen drive to transfer data->security risk,
+Data duplication.
+John->employee-he lost the pen drive containing his client info.
+
+Solution:
+John decided to set up a LAN(Local Area Network) in his office.
+By connecting all computers through a central switch and configuring a share drive,
+So that employees could easily share files securely. Within network, john also setup a central printer
+
+Problem2
+GLobal Corp ->MNC Company->challange
+It has several branches across different continents.
+And faced challenges while transferring huge size of data
+And also sometimes face network issue while video conferencing
+
+Solution:
+WAN(Wide Area Network)->connect all branches by using
+Leased lines and configure VPN(Virtual Private Network)
+
+What is Networking?
+Networking is the practice of connecting multiple computers so that they can share information or any resource seamlessly
+
+Importance?
+1.it facilitates Communication and collaboration 
+2.it enables resource sharing
+3.it enhances data security and management
+4.Improves productivity and efficiency
+
+Network->interconnection of several computers,devices,resource
+
+Different Types of network(based on Geographical Location)
+1.LAN (Local Area Network)
+A network that connects computer with a limited area such as 
+Home , school or office
+Implementation -> small business , schools
+
+2.WAN(Wide Are Network)
+A network that connects computers over a large geographical area (we use multiple lans to create WAN)
+Implementation->MNC Companies
+
+3.MAN(Metropolitan Area Network)
+A Network that spans a city or a large campus
+Implementations: City wide wifi, large university
+
+4.PAN(Personal Area Network)
+A Pan connects devices within a user’s area
+
+Network Topologies(Based on Physical Connections):
+Bus Topology
+Advantages:
+1.easy to install
+2.requires less cable
+3.cost effective
+
+DisAdvantage:
+1.not easy to maintain
+2.limited cable length
+
+
+Star Topology
+1.easy to install and easy to manage
+Disadvantage:
+1.cost inefficiency 
+
+Ring Topology
+-data travels at high speed , no data collision
+-a failure in any cable or device can disrupt network
+
+Mesh Topology
+-Reliable and scalable
+-expensive,complex to install or manage
+
+Setting up a Simple LAN Materials:
+Network Switch
+Ethernet cable
+COmputer with NIC(Network Interface card)
+
+Steps:
+1.Connect the switch
+2.Connect Computer with Switch
+3.COnfigure Network Settings
+
+Windows:
+->Open control panel
+->go to Network and sharing centre
+->click on adapter settings 
+->select IPV4 and click properties
+->choose “Use the following IP Address”
+
+
+
