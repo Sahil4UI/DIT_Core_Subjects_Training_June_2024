@@ -1,0 +1,60 @@
+EXAMPLE1:
+JANE MANAGES a chain of retail STORE
+Each Store has its own local network for handling sales.
+The store frequently facing problems
+1.network issues die to which there is delay in processing sales and updating inventory
+
+IT->how data travels across network
+
+Solution:
+OSI and TCP/IP MODELS->network->different layers
+By analysing each layers, they identified that the problem waS WITH THE router configuration(Network Layer)
+
+EXAMPLE 2:.
+A large University Campus-Multiple buildings
+Solution:
+Transport Layer(where packet loss and retransmission were occurring because of outdated network switches
+
+
+
+OSI MODEL
+1.Application Layer
+Applications create the data
+AppliCation LAYER->end user
+Browser 
+2.Presentation Layer
+Data is formatted and encrypted
+3.Session Layer->
+It established/manage the connection
+4.Transport Layer
+Data is divided into segments for reliable delivery
+5.NetWork Layer
+Segments->packets and routed
+It tells the best path to transfer data from source to Destination.
+6.Data Link Layer
+Packets->framed and sent to the next device
+7.Physical layer
+Frames->bits and transmitted physically
+
+Protocols:
+1.HTTP/HTTPS(Secure)
+Hyper Text Transfer Protocol
+It is used for web browsing and secure web communication
+2.FTP(File Transfer Protocol)
+It is used to transfer files b/w computers
+3.SMTP(Simple Mail Transfer Protocol)
+Used for sending mails
+4.DNS(Domain Name System)
+It translates domain name into ip addresses
+5.DHCP (Dynamic Host Configuration Protocol)
+It Dynamically assign ip addresses to devices on network
+6.TCP(Transmission COntrol Protocol)
+It ensures reliable, ordered and error checked delivery of data
+7.UDP(User DataGram Protocol)
+It provides faster but less reliable data transmission
+
+
+
+DNS configuration on Linux:
+1. Sudo apt-get install bind9
+2. 
